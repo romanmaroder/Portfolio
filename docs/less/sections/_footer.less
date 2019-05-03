@@ -1,0 +1,26 @@
+.footer-bg {
+	background-color: @footer-bg-color;
+	padding: 35px 0 50px;
+	@media (min-width: 768px) {
+		padding: 55px 0 60px
+	}
+	@media (min-width: 1200px) {
+	padding: 75px 0 80px;
+	}
+}
+
+.footer-contact__link {
+	display: inline-block;
+	color:#fff;
+	padding-bottom: 2px;
+	border-bottom: 1px dotted #fff;
+	transition: 0.2s linear;
+	&:hover,&:focus, &:active {
+		text-decoration: none;
+		color:@yellow;
+		border-bottom: 1px dotted @yellow;
+	}
+}
+.footer-contact__link--address {
+		color:#fff;
+}
