@@ -20,7 +20,7 @@
 
 ```
 git clone https://github.com/RomanKashik/Portfolio.git
-cd apollo
+cd portfolio
 ```
 
 Открыть index.html
