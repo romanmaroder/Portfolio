@@ -7,14 +7,41 @@ $("a,a[href='#top'],a[rel='m_PageScroll2id'],a.PageScroll2id").mPageScroll2id({
 
 
 $('#portfolio-project').mixItUp();
-// функция для вложения одного файла js  в другой
-function dynamicallyLoadScript(url) {
-    	var script = document.createElement("script");  // Создаем элемент script
-    	script.src = url;  // задаем значение src 
-    	document.body.appendChild(script);  // вставляем script перед </body>
-    }
-  dynamicallyLoadScript("js/_navigation.js"); // вызываем функцию 
 
+
+// функция для вложения одного файла js  в другой
+// function dynamicallyLoadScript(url) {
+//     	var script = document.createElement("script");  // Создаем элемент script
+//     	script.src = url;  // задаем значение src 
+//     	document.body.appendChild(script);  // вставляем script перед </body>
+//     }
+// 	dynamicallyLoadScript("js/_navigation.js"); // вызываем функцию 
+
+
+	//Мобильное меню
+	let navToggleButton = $('.navigation__toogle'),
+	navBlock = $('.navigation__list'),
+	navBlockOpen = 'navigation__list--open',
+	navLink = $('.navigation__list a'),
+	navIcon = $('#mobile-menu'),
+	navIconActive = 'burger-btn-active',
+	navFix = 'navigation__toogle--fixed';
+
+//Мобильная навигация
+navToggleButton.on('click', function(e) {
+	e.preventDefault(); //отменяем стандартное поведение элемента
+	navBlock.toggleClass(navBlockOpen);
+	navIcon.toggleClass(navIconActive);
+	navToggleButton.toggleClass(navFix);
+});
+
+// По клику по пункту в мобильном меню, удаляем класс и переходим к выбранному пункту
+
+navLink.on('click', function() {   // Находим в навигации пункты меню (ссылки)
+navBlock.removeClass(navBlockOpen); // При клике удаляем класс --open 
+	navIcon.toggleClass(navIconActive);
+	navToggleButton.toggleClass(navFix);
+});
 
 // FansyBox
 $('[data-fancybox="gallery"]').fancybox({
