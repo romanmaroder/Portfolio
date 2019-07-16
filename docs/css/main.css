@@ -481,7 +481,7 @@ a.mouse_scroll:focus {
 .section--card {
   margin-bottom: 40px;
 }
-.section--card:last-child {
+/* .section--card:last-child {
   margin-bottom: 0;
 }
 @media (min-width: 768px) {
@@ -490,7 +490,7 @@ a.mouse_scroll:focus {
   .section--card:nth-child(6) {
     margin-bottom: 0;
   }
-}
+} */
 .section--bottom-line {
   border-bottom: 1px solid #e9eff3;
 }
