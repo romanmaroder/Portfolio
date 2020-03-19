@@ -1,375 +1,456 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-	<title>Портфолио</title>
-	<meta name="description" content="Портфолио верстальщика сайтов">
-	<meta name="keywords" content="Портфолио, проекты, заказать">
-	<!-- Adaptive -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<!-- Style -->
-	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="fonts/noto-webfont/noto.css">
-	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="lib/fancybox-master/dist/jquery.fancybox.min.css">
-	<!-- FaIcons -->
-	<link rel="icon" href="img/faicons/favicon-48x48.ico" type="image/x-icon"/>
-	<link rel="shortcut icon" href="img/faicons/favicon-48x48.ico" type="image/x-icon"/>
-	<link rel="apple-touch-icon" href="img/faicons/apple-touch-icon.png">
+    <title>Портфолио</title>
+    <meta name="description" content="Портфолио верстальщика сайтов">
+    <meta name="keywords" content="Портфолио, проекты, заказать">
+    <!-- Adaptive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- Style -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/noto-webfont/noto.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="lib/fancybox-master/dist/jquery.fancybox.min.css">
+    <!-- FaIcons -->
+    <link rel="icon" href="img/faicons/favicon-48x48.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="img/faicons/favicon-48x48.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="img/faicons/apple-touch-icon.png">
 </head>
 <body>
-	<!--[if lt IE 8]>
-	<p class="browserupgrade">Вы используете <strong>устаревшую</strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/">обновите свой браузер</a>.</p>
+<!--[if lt IE 8]>
+<p class="browserupgrade">Вы используете <strong>устаревшую</strong> версию браузера. Пожалуйста <a
+        href="http://browsehappy.com/">обновите свой браузер</a>.</p>
 <![endif]-->
 
 <!-- Шапка сайта -->
 <header class="header">
-	<div class="container table">
-		<div class="header__inner">
-			<nav class="navigation">
-				<div class="navigation__toogle">
-					<a class="burger-btn"  id="mobile-menu" href="#">
-						<span></span>
-					</a>
-				</div>
-				<ul class="navigation__list">
-					<li><a href="#resume">Резюме</a></li>
-					<li><a href="#portfolio">Портфолио</a></li>
-					<li><a href="#contacts">Контакты</a></li>
-				</ul>
-			</nav>
-			<div class="user-photo user-photo--small">
-				<img src="usercontent/img/photo-small.jpg" alt="Фото пользователя">
-			</div>
-			<h1 class="header__title">Роман Кашик</h1>
-			<h2 class="header__subtitle">HTML верстальщик сайтов</h2>
-		</div>
-		<a href="#resume" class="mouse_scroll">
-			<div class="mouse">
-				<div class="wheel"></div>
-			</div>
-			<div>
-				<span class="m_scroll_arrows unu"></span>
-				<span class="m_scroll_arrows doi"></span>
-				<span class="m_scroll_arrows trei"></span>
-			</div>
-		</a>
-	</div>
+    <div class="container table">
+        <div class="header__inner">
+            <nav class="navigation">
+                <div class="navigation__toogle">
+                    <a class="burger-btn" id="mobile-menu" href="#">
+                        <span></span>
+                    </a>
+                </div>
+                <ul class="navigation__list">
+                    <li><a href="#resume">Резюме</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="user-photo user-photo--small">
+                <img src="usercontent/img/photo-small.jpg" alt="Фото пользователя">
+            </div>
+            <h1 class="header__title">Роман Кашик</h1>
+            <h2 class="header__subtitle">HTML верстальщик сайтов</h2>
+        </div>
+        <a href="#resume" class="mouse_scroll">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div>
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+                <span class="m_scroll_arrows trei"></span>
+            </div>
+        </a>
+    </div>
 </header>
 <!--// Шапка сайта -->
 
 <!-- Блок с Резюме и Работами -->
 <main>
-	<!-- Резюме пользователя -->
-	<div class="section section--bg-laptop section--bottom-line" id="resume">
-		<div class="container">
-			<div class="row">
-				<!-- Фотография -->
-				<div class="hidden-xs col-sm-2 col-lg-3">
-					<div class="user-photo user-photo--big">
-						<img src="usercontent/img/photo-big.jpg" alt="Фото пользователя">
-					</div>
-				</div>
-				<!-- //Фотография -->
-				<!-- Резюме -->
-				<div class="col-sm-10 col-lg-9">
-					<div class="heading">Резюме</div>
-					<p><strong>Кашик Роман</strong><br>
-					34 года, Донецк, Украина</p>
-					<p>Закончил Донецкий инстиут автомобильного транспорта. После чего занимался самообразованием в сфере веб-разработки</p>
-					<!-- Колонки Опыт и Образование -->
-					<div class="row">
-						<div class="col-sm-6 col-lg-6 section--col-width ">
-							<div class="heading heading--medium">Опыт работы</div>
-							<ul class="skill-list">
-								<li class="skill-list__item">
-									<div class="skill-list__title">Фераль — настоящее время</div>
-									<p class="skill-list__desc">Фрилансер</p>
-								</li>
-								<li class="skill-list__item">
-									<div class="skill-list__title">июнь 2018 — февраль 2019</div>
-									<p class="skill-list__desc">Администратор станции технического обслуживания</p>
-								</li>
-								<li class="skill-list__item">
-									<div class="skill-list__title">август 2007 — июнь 2018</div>
-									<p class="skill-list__desc">ЧП "Камелия" - менеджер отдела продаж</p>
-								</li>
-							</ul>
-						</div>
-						<div class="col-sm-6 col-lg-6">
-							<div class="heading heading--medium">Образование</div>
-							<ul class="skill-list">
-								<li class="skill-list__item">
-									<div class="skill-list__title">февраль 2019</div>
-									<p class="skill-list__desc">Курсы по верстке сайтов HTML5, CSS3 - WebCademy.ru</p>
-								</li>
-								<li class="skill-list__item">
-									<div class="skill-list__title">2002 — 2007</div>
-									<p class="skill-list__desc& skill-list__desc&--line-height ">Донецкий институт автомобильного транспорта, специальность - организация перевозок, управление транспортом, таможенный контроль.</p>
-								</li>
-							</ul>
-						</div>
-						<!-- //Колонки Опыт и Образование -->
-					</div>
-					<a href="usercontent/pdf/Кашик Роман - верстальщик.pdf" class="button" target="blank" download>
-						<i class="fa fa-download " aria-hidden="true"></i>
-						Скачать резюме
-					</a>
-				</div>
-				<!-- //Резюме -->
-			</div>
-		</div>
-	</div>
-	<!-- Резюме пользователя -->
-	<!-- Блок с работами -->
-	<div class="section section--bg-gear section--work" id="portfolio">
-		<div class="container">
-			<div class="heading heading--center">Мои работы</div>
-			<!-- Фильтр -->
-			<div class="filter-wrapper">
-				<ul class="filter-wrapper__block">
-					<li class="filter-wrapper__element">
-						<span class="filter-wrapper__button  filter" data-filter="all">Все</span>
-					</li>
-					<li class="filter-wrapper__element">
-						<span class="filter-wrapper__button filter" data-filter=".html-css">HTML+CSS</span>
-					</li>
-					<li class="filter-wrapper__element">
-						<span class="filter-wrapper__button filter" data-filter=".bootstrap">Bootstrap</span>
-					</li>
-					<li class="filter-wrapper__element">
-						<span class="filter-wrapper__button filter" data-filter=".tutorial">учебные</span>
-					</li>
-					<li class="filter-wrapper__element">
-						<span class="filter-wrapper__button filter" data-filter=".order">Flexbox</span>
-					</li>
-				</ul>
-			</div>
-			<!-- //Фильтр -->
-			<!-- Работы -->
-			<div class="row" >
-				<!-- Блок-обертка для фильтра и центровки работ на смартфонах -->
-				<div class="portfolio-project--center" id="portfolio-project">
-					<div class="col-sm-4 col-lg-4 section--card mix tutorial html-css">
-						<div  class="portfolio-card">
-							<a href="usercontent/img/full/organic.png" class="portfolio-card__img" data-fancybox="gallery" data-caption="Учебный макет Organica">
+    <!-- Резюме пользователя -->
+    <div class="section section--bg-laptop section--bottom-line" id="resume">
+        <div class="container">
+            <div class="row">
+                <!-- Фотография -->
+                <div class="hidden-xs col-sm-2 col-lg-3">
+                    <div class="user-photo user-photo--big">
+                        <img src="usercontent/img/photo-big.jpg" alt="Фото пользователя">
+                    </div>
+                </div>
+                <!-- //Фотография -->
+                <!-- Резюме -->
+                <div class="col-sm-10 col-lg-9">
+                    <div class="heading">Резюме</div>
+                    <p><strong>Кашик Роман</strong><br>
+                        34 года, Донецк, Украина</p>
+                    <p>Закончил Донецкий инстиут автомобильного транспорта. После чего занимался самообразованием в
+                        сфере веб-разработки</p>
+                    <!-- Колонки Опыт и Образование -->
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-6 section--col-width ">
+                            <div class="heading heading--medium">Опыт работы</div>
+                            <ul class="skill-list">
+                                <li class="skill-list__item">
+                                    <div class="skill-list__title">Фераль — настоящее время</div>
+                                    <p class="skill-list__desc">Фрилансер</p>
+                                </li>
+                                <li class="skill-list__item">
+                                    <div class="skill-list__title">июнь 2018 — февраль 2019</div>
+                                    <p class="skill-list__desc">Администратор станции технического обслуживания</p>
+                                </li>
+                                <li class="skill-list__item">
+                                    <div class="skill-list__title">август 2007 — июнь 2018</div>
+                                    <p class="skill-list__desc">ЧП "Камелия" - менеджер отдела продаж</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-6">
+                            <div class="heading heading--medium">Образование</div>
+                            <ul class="skill-list">
+                                <li class="skill-list__item">
+                                    <div class="skill-list__title">февраль 2019</div>
+                                    <p class="skill-list__desc">Курсы по верстке сайтов HTML5, CSS3 - WebCademy.ru</p>
+                                </li>
+                                <li class="skill-list__item">
+                                    <div class="skill-list__title">2002 — 2007</div>
+                                    <p class="skill-list__desc& skill-list__desc&--line-height ">Донецкий институт
+                                        автомобильного транспорта, специальность - организация перевозок, управление
+                                        транспортом, таможенный контроль.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- //Колонки Опыт и Образование -->
+                    </div>
+                    <a href="usercontent/pdf/Кашик Роман - верстальщик.pdf" class="button" target="blank" download>
+                        <i class="fa fa-download " aria-hidden="true"></i>
+                        Скачать резюме
+                    </a>
+                </div>
+                <!-- //Резюме -->
+            </div>
+        </div>
+    </div>
+    <!-- Резюме пользователя -->
+    <!-- Блок с работами -->
+    <div class="section section--bg-gear section--work" id="portfolio">
+        <div class="container">
+            <div class="heading heading--center">Мои работы</div>
+            <!-- Фильтр -->
+            <div class="filter-wrapper">
+                <ul class="filter-wrapper__block">
+                    <li class="filter-wrapper__element">
+                        <span class="filter-wrapper__button  filter" data-filter="all">Все</span>
+                    </li>
+                    <li class="filter-wrapper__element">
+                        <span class="filter-wrapper__button filter" data-filter=".html-css">HTML+CSS</span>
+                    </li>
+                    <li class="filter-wrapper__element">
+                        <span class="filter-wrapper__button filter" data-filter=".bootstrap">Bootstrap</span>
+                    </li>
+                    <li class="filter-wrapper__element">
+                        <span class="filter-wrapper__button filter" data-filter=".tutorial">учебные</span>
+                    </li>
+                    <li class="filter-wrapper__element">
+                        <span class="filter-wrapper__button filter" data-filter=".order">Flexbox</span>
+                    </li>
+                    <li class="filter-wrapper__element">
+                        <span class="filter-wrapper__button filter" data-filter=".php">Интернет магазин</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- //Фильтр -->
+            <!-- Работы -->
+            <div class="row">
+                <!-- Блок-обертка для фильтра и центровки работ на смартфонах -->
+                <div class="portfolio-project--center" id="portfolio-project">
+                    <div class="col-sm-4 col-lg-4 section--card mix tutorial html-css">
+                        <div class="portfolio-card">
+                            <a href="usercontent/img/full/organic.png" class="portfolio-card__img"
+                               data-fancybox="gallery" data-caption="Учебный макет Organica">
+                                <div class="portfolio__img--search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <div class="portfolio__img--title">смотреть макет</div>
+                                </div>
+                                <img src="usercontent/img/project_organica.jpg" alt="Макет Organica">
+                            </a>
+                            <a href="https://romankashik.github.io/organic/" target="blank"
+                               class="portfolio-card__title">Учебный макет Organica</a>
+                            <div class="portfolio-card__description">Верстка одностраничного сайта по PSD макету.</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 section--card mix tutorial bootstrap">
+                        <div class="portfolio-card">
+                            <a href="usercontent/img/full/apollo.png" class="portfolio-card__img"
+                               data-fancybox="gallery" data-caption="Учебный макет Аполло">
+                                <div class="portfolio__img--search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <div class="portfolio__img--title">смотреть макет</div>
+                                </div>
+                                <img src="usercontent/img/project_apollo.jpg" alt="Макет Apollo">
+                            </a>
+                            <a href="https://romankashik.github.io/Apollo/" target="blank"
+                               class="portfolio-card__title">Учебный макет Аполло</a>
+                            <div class="portfolio-card__description">Верстка лендинга хостинг компании. Мобильная
+                                адаптивность.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 section--card mix bootstrap order">
+                        <div class="portfolio-card">
+                            <a href="usercontent/img/full/portfolio.jpg" class="portfolio-card__img"
+                               data-fancybox="gallery" data-caption="Личный сайт портфолио">
+                                <div class="portfolio__img--search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <div class="portfolio__img--title">смотреть макет</div>
+                                </div>
+                                <img src="usercontent/img/project_portfolio.jpg" alt="Макет Portfolio">
+                            </a>
+                            <a href="usercontent/img/full/portfolio.jpg" target="blank" class="portfolio-card__title">Личный
+                                сайт портфолио</a>
+                            <div class="portfolio-card__description">Верстка личного сайта портфолио на котором вы
+                                сейчас находитесь.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 section--card mix bootstrap order">
+                        <div class=" portfolio-card">
+                            <a href="usercontent/img/full/OXXO.jpg" class="portfolio-card__img" data-fancybox="gallery"
+                               data-caption="Landing Page компании OXXO">
+                                <div class="portfolio__img--search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <div class="portfolio__img--title">смотреть макет</div>
+                                </div>
+                                <img src="usercontent/img/project_oxxo.jpg" alt="Макет Moto">
+                            </a>
+                            <a href="https://romankashik.github.io/OXXO/" target="blank" class="portfolio-card__title">Landing
+                                Page OXXO</a>
+                            <div class="portfolio-card__description">Верстка лендинга для компании OXXO.</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 section--card mix order">
+                        <div class="portfolio-card ">
+                            <a href="usercontent/img/full/tajam.jpg" class="portfolio-card__img" data-fancybox="gallery"
+                               data-caption="Тестовый проект ">
+                                <div class="portfolio__img--search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <div class="portfolio__img--title">смотреть макет</div>
+                                </div>
+                                <img src="usercontent/img/project_tajam.jpg" alt="Макет Tajam">
+                            </a>
+                            <a href="https://romankashik.github.io/Tajam/" target="blank" class="portfolio-card__title">Тестовый
+                                проект</a>
+                            <div class="portfolio-card__description">Верстка лендинга креативного агенства.</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 section--card mix order">
+                        <div class="portfolio-card ">
+                            <a href="usercontent/img/full/aesthetic.jpg" class="portfolio-card__img"
+                               data-fancybox="gallery" data-caption="Тестовый проект ">
+                                <div class="portfolio__img--search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <div class="portfolio__img--title">смотреть макет</div>
+                                </div>
+                                <img src="usercontent/img/project_aesthetic.jpg" alt="Макет Tajam">
+                            </a>
+                            <a href="http://www.phr-aesthetic.eu/" target="blank"
+                               class="portfolio-card__title">Aesthetic проект</a>
+                            <div class="portfolio-card__description">Верстка сайта для клиники.</div>
+                        </div>
+                    </div>
+					<div class="col-sm-4 col-lg-4 section--card order php">
+						<div class="portfolio-card ">
+							<a href="usercontent/img/full/ecommerce.png" class="portfolio-card__img"
+							   data-fancybox="gallery" data-caption="Учебный интернет магазин">
 								<div class="portfolio__img--search">
 									<i class="fa fa-search" aria-hidden="true"></i>
 									<div class="portfolio__img--title">смотреть макет</div>
 								</div>
-								<img src="usercontent/img/project_organica.jpg" alt="Макет Organica">
+								<img src="usercontent/img/project__ecommerce.png" alt="Макет Ecommerce">
 							</a>
-							<a href="https://luxury-2019.000webhostapp.com/Organica/index.html" target="blank" class="portfolio-card__title">Учебный макет Organica</a>
-							<div class="portfolio-card__description">Верстка одностраничного сайта по PSD макету.</div>
+							<a href="https://aesthetic-test.000webhostapp.com/" target="blank"
+							   class="portfolio-card__title">Интернет-магазин</a>
+							<div class="portfolio-card__description">Верстка интернет-магазина.</div>
 						</div>
 					</div>
-					<div class="col-sm-4 col-lg-4 section--card mix tutorial bootstrap">
-						<div  class="portfolio-card">
-							<a href="usercontent/img/full/apollo.png" class="portfolio-card__img" data-fancybox="gallery"  data-caption="Учебный макет Аполло">
-								<div class="portfolio__img--search">
-									<i class="fa fa-search" aria-hidden="true"></i>
-									<div class="portfolio__img--title">смотреть макет</div>
-								</div>
-								<img src="usercontent/img/project_apollo.jpg" alt="Макет Apollo">
-							</a>
-							<a href="https://luxury-2019.000webhostapp.com/Appolo/index.html" target="blank" class="portfolio-card__title">Учебный макет Аполло</a>
-							<div class="portfolio-card__description">Верстка лендинга хостинг компании. Мобильная адаптивность.</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-lg-4 section--card mix bootstrap order">
-						<div  class="portfolio-card">
-							<a href="usercontent/img/full/portfolio.jpg" class="portfolio-card__img" data-fancybox="gallery"  data-caption="Личный сайт портфолио">
-								<div class="portfolio__img--search">
-									<i class="fa fa-search" aria-hidden="true"></i>
-									<div class="portfolio__img--title">смотреть макет</div>
-								</div>
-								<img src="usercontent/img/project_portfolio.jpg" alt="Макет Portfolio">
-							</a>
-							<a href="usercontent/img/full/portfolio.jpg" target="blank" class="portfolio-card__title">Личный сайт портфолио</a>
-							<div class="portfolio-card__description">Верстка личного сайта портфолио на котором вы сейчас находитесь.</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-lg-4 section--card mix order">
-						<div  class=" portfolio-card">
-							<a href="usercontent/img/full/luxury-full.jpg" class="portfolio-card__img" data-fancybox="gallery"  data-caption="Промо сайт ресторана">
-								<div class="portfolio__img--search">
-									<i class="fa fa-search" aria-hidden="true"></i>
-									<div class="portfolio__img--title">смотреть макет</div>
-								</div>
-								<img src="usercontent/img/luxury.jpg" alt="Макет Luxury">
-							</a>
-							<a href="https://luxury-2019.000webhostapp.com/Luxury/pages/contact-us.html" target="blank" class="portfolio-card__title">Промо сайт ресторана</a>
-							<div class="portfolio-card__description">Верстка сайта для презентации ресторана.</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-lg-4 section--card mix bootstrap order">
-						<div  class=" portfolio-card">
-							<a href="usercontent/img/full/OXXO.jpg" class="portfolio-card__img" data-fancybox="gallery"  data-caption="Landing Page компании OXXO">
-								<div class="portfolio__img--search">
-									<i class="fa fa-search" aria-hidden="true"></i>
-									<div class="portfolio__img--title">смотреть макет</div>
-								</div>
-								<img src="usercontent/img/project_oxxo.jpg" alt="Макет Moto">
-							</a>
-							<a href="https://romankashik.github.io/OXXO/" target="blank" class="portfolio-card__title">Landing Page OXXO</a>
-							<div class="portfolio-card__description">Верстка лендинга для компании OXXO.</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-lg-4 section--card mix order">
-						<div  class="portfolio-card ">
-							<a href="usercontent/img/full/tajam.jpg" class="portfolio-card__img" data-fancybox="gallery"  data-caption="Тестовый проект ">
-								<div class="portfolio__img--search">
-									<i class="fa fa-search" aria-hidden="true"></i>
-									<div class="portfolio__img--title">смотреть макет</div>
-								</div>
-								<img src="usercontent/img/project_tajam.jpg" alt="Макет Tajam">
-							</a>
-							<a href="https://romankashik.github.io/Tajam/" target="blank" class="portfolio-card__title">Тестовый проект</a>
-							<div class="portfolio-card__description">Верстка лендинга креативного агенства.</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-lg-4 section--card mix order">
-						<div  class="portfolio-card ">
-							<a href="usercontent/img/full/aesthetic.jpg" class="portfolio-card__img" data-fancybox="gallery"  data-caption="Тестовый проект ">
-								<div class="portfolio__img--search">
-									<i class="fa fa-search" aria-hidden="true"></i>
-									<div class="portfolio__img--title">смотреть макет</div>
-								</div>
-								<img src="usercontent/img/project_aesthetic.jpg" alt="Макет Tajam">
-							</a>
-							<a href="https://aesthetic-test.000webhostapp.com/dist/index.ru.html" target="blank" class="portfolio-card__title">Aesthetic проект</a>
-							<div class="portfolio-card__description">Верстка сайта для клиники.</div>
-						</div>
-					</div>
-				</div>
-				<!--// Блок-обертка для фильтра и центровки работ на смартфонах -->
+                    <div class="col-sm-4 col-lg-4 section--card mix order">
+                        <div class="portfolio-card ">
+                            <a href="usercontent/img/full/bp_avto.png" class="portfolio-card__img"
+                               data-fancybox="gallery" data-caption="Сайт доставки авто">
+                                <div class="portfolio__img--search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <div class="portfolio__img--title">смотреть макет</div>
+                                </div>
+                                <img src="usercontent/img/project__bp_avto.png" alt="BP AUTO">
+                            </a>
+                            <a href="http://bpauto.lv/avtopodbor/index.html" target="blank"
+                               class="portfolio-card__title">BP AUTO</a>
+                            <div class="portfolio-card__description">Сайт доставки авто</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 section--card mix order">
+                        <div class="portfolio-card ">
+                            <a href="usercontent/img/full/proestate-lv.jpg" class="portfolio-card__img"
+                               data-fancybox="gallery" data-caption="Сайт подбора недвижимости">
+                                <div class="portfolio__img--search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <div class="portfolio__img--title">смотреть макет</div>
+                                </div>
+                                <img src="usercontent/img/project__pro_estate.png" alt="ProEstate">
+                            </a>
+                            <a href="http://proestate.lv/" target="blank"
+                               class="portfolio-card__title">ProEstate</a>
+                            <div class="portfolio-card__description">Сайт по подбору недвижимости</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 section--card mix order php">
+                        <div class="portfolio-card ">
+                            <a href="usercontent/img/full/nboutlet.jpg" class="portfolio-card__img"
+                               data-fancybox="gallery" data-caption="Сайт стоковой одежды">
+                                <div class="portfolio__img--search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <div class="portfolio__img--title">смотреть макет</div>
+                                </div>
+                                <img src="usercontent/img/project__nboutlet.png" alt="NBOutlet">
+                            </a>
+                            <a href="http://www.nboutlet.eu/index-mobile.php" target="blank"
+                               class="portfolio-card__title">NBOutlet</a>
+                            <div class="portfolio-card__description">Магазин стоковой одежды</div>
+                        </div>
+                    </div>
+                </div>
+                <!--// Блок-обертка для фильтра и центровки работ на смартфонах -->
 
-			</div>
-			<!--// Работы -->
-		</div>
-	</div>
-	<!--// Блок с работами -->
+            </div>
+            <!--// Работы -->
+        </div>
+    </div>
+    <!--// Блок с работами -->
 </main>
 <!-- //Блок с Резюме и Работами -->
 
 <!-- Контакты -->
 <footer id='contacts'>
-	<div class="footer-bg section section--bg-cloud ">
-		<div class="container">
-			<div class="row ">
-				<!-- Контакты -->
-				<div class="col-sm-6 col-lg-6">
-					<div class="heading heading--white">Контакты</div>
-					<p class="heading-description">Если вы ищите специалиста по верстке сайтов, front-end разработчика в команду или для работы над проектом —  я к вашим услугам.</p>
-					
-					<div class="row">
-						<div class="col-sm-12 col-lg-6">
-							<ul class="skill-list">
-								<li class="skill-list__item">
-									<div class="skill-list__title skill-list__title--footer">Email</div>
-									<p class="skill-list__desc"><a class="footer-contact__link" href="mailto:roma12041985@yandex.ru">kashik.roman@rambler.ru</a></p>
-								</li>
-								<!-- <li class="skill-list__item">
-									<div class="skill-list__title skill-list__title--footer">Skype</div>
-									<p class="skill-list__desc"><a class="footer-contact__link" href="skype:emelyan.kazakov?chat">* * * * * * *</a></p>
-								</li> -->
-							</ul>
-						</div>
-						<div class="col-sm-12 col-lg-6">
-							<ul class="skill-list">
-								<li class="skill-list__item">
-									<div class="skill-list__title skill-list__title--footer">Телефон</div>
-									<p class="skill-list__desc"><a class="footer-contact__link" href="tel:+78 (070) 555-77-55">+38(071)338-82-87</a></p>
-								</li>
-								<li class="skill-list__item">
-									<div class="skill-list__title skill-list__title--footer">Адрес</div>
-									<p class="skill-list__desc footer-contact__link--address">Украина, Донецк</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<!-- Социальные сети -->
-					<ul class="skill-list skill-list-social-icon--contact">
-						<li class="skill-list__item skill-list__item-social-icon--contact">
-							<div class="skill-list__title skill-list__title--footer">социальные сети</div>
-							<div class="skill-list__desc">
-								<div class="social-icon">
-									<a href="https://vk.com/id330586229" class="fa fa-vk" aria-hidden="true" target="blank"></a>
-									<!-- <a href="https://twitter.com/?lang=ru" class="fa fa-twitter" aria-hidden="true" target="blank"></a> -->
-									<!-- <a href="https://www.youtube.com/?gl=UA&hl=ru" class="fa fa-youtube" aria-hidden="true" target="blank"></a> -->
-									<!-- <a href="https://www.instagram.com/?hl=ru" class="fa fa-instagram" aria-hidden="true" target="blank"></a> -->
-									<a href="https://github.com/RomanKashik" class="fa fa-github" aria-hidden="true" target="blank"></a>
-								</div>
-							</div>
-						</li>
-					</ul>
-					<!--// Социальные сети -->
-				</div>
-				<!--// Контакты -->
-				<!-- Форма -->
-				<div class="col-sm-6 col-lg-6">
-					<div class="heading-form ">Связаться со мной</div>
-					<form  class="contact-form" id="contact-form">
-						<!-- Скрытые поля -->
-						<input type="hidden" name="project_name" value="Мой персональный сайт">
-						<input type="hidden" name="form_from" value="admin@webhostapp.com">
-						<input type="hidden" name="admin_email" value="roma12041985@yandex.ru">
-						<input type="hidden" name="form_subject" value=" Сообщение с сайта">
-						<!-- //Скрытые поля -->
+    <div class="footer-bg section section--bg-cloud ">
+        <div class="container">
+            <div class="row ">
+                <!-- Контакты -->
+                <div class="col-sm-6 col-lg-6">
+                    <div class="heading heading--white">Контакты</div>
+                    <p class="heading-description">Если вы ищите специалиста по верстке сайтов, front-end разработчика в
+                        команду или для работы над проектом — я к вашим услугам.</p>
 
-						<input type="text" class="contact-form__input" id="name" name="name" placeholder="Имя" required>
-						<input type="email" class="contact-form__input" id="email" name="email" placeholder="some@mail.com" required>
-						<div class="contact-form__half-width">
-							<input type="text" class="contact-form__input contact-form__input--half-width-skype" name="skype" placeholder="Skype">
-							<input type="tel" class="contact-form__input contact-form__input--half-width-phone" name="phone" placeholder="Телефон">
-						</div>
-						<div class="pencil-bocks">
-							<textarea name="message" class="contact-form__textarea" id="message" cols="30" rows="10" placeholder="Ваше сообщение" required></textarea>
-						</div>
-						<input type="submit" class="contact-submit" value="Отправить">
-					</form>
-					<div id="answer"></div>
-				</div>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <ul class="skill-list">
+                                <li class="skill-list__item">
+                                    <div class="skill-list__title skill-list__title--footer">Email</div>
+                                    <p class="skill-list__desc"><a class="footer-contact__link"
+                                                                   href="mailto:roma12041985@yandex.ru">kashik.roman@rambler.ru</a>
+                                    </p>
+                                </li>
+                                <!-- <li class="skill-list__item">
+                                    <div class="skill-list__title skill-list__title--footer">Skype</div>
+                                    <p class="skill-list__desc"><a class="footer-contact__link" href="skype:emelyan.kazakov?chat">* * * * * * *</a></p>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <ul class="skill-list">
+                                <li class="skill-list__item">
+                                    <div class="skill-list__title skill-list__title--footer">Телефон</div>
+                                    <p class="skill-list__desc"><a class="footer-contact__link"
+                                                                   href="tel:+78 (070) 555-77-55">+38(071)338-82-87</a>
+                                    </p>
+                                </li>
+                                <li class="skill-list__item">
+                                    <div class="skill-list__title skill-list__title--footer">Адрес</div>
+                                    <p class="skill-list__desc footer-contact__link--address">Украина, Донецк</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Социальные сети -->
+                    <ul class="skill-list skill-list-social-icon--contact">
+                        <li class="skill-list__item skill-list__item-social-icon--contact">
+                            <div class="skill-list__title skill-list__title--footer">социальные сети</div>
+                            <div class="skill-list__desc">
+                                <div class="social-icon">
+                                    <a href="https://vk.com/id330586229" class="fa fa-vk" aria-hidden="true"
+                                       target="blank"></a>
+                                    <!-- <a href="https://twitter.com/?lang=ru" class="fa fa-twitter" aria-hidden="true" target="blank"></a> -->
+                                    <!-- <a href="https://www.youtube.com/?gl=UA&hl=ru" class="fa fa-youtube" aria-hidden="true" target="blank"></a> -->
+                                    <!-- <a href="https://www.instagram.com/?hl=ru" class="fa fa-instagram" aria-hidden="true" target="blank"></a> -->
+                                    <a href="https://github.com/RomanKashik" class="fa fa-github" aria-hidden="true"
+                                       target="blank"></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--// Социальные сети -->
+                </div>
+                <!--// Контакты -->
+                <!-- Форма -->
+                <div class="col-sm-6 col-lg-6">
+                    <div class="heading-form ">Связаться со мной</div>
+                    <form class="contact-form" id="contact-form">
+                        <!-- Скрытые поля -->
+                        <input type="hidden" name="project_name" value="Мой персональный сайт">
+                        <input type="hidden" name="form_from" value="admin@webhostapp.com">
+                        <input type="hidden" name="admin_email" value="roma12041985@yandex.ru">
+                        <input type="hidden" name="form_subject" value=" Сообщение с сайта">
+                        <!-- //Скрытые поля -->
+
+                        <input type="text" class="contact-form__input" id="name" name="name" placeholder="Имя" required>
+                        <input type="email" class="contact-form__input" id="email" name="email"
+                               placeholder="some@mail.com" required>
+                        <div class="contact-form__half-width">
+                            <input type="text" class="contact-form__input contact-form__input--half-width-skype"
+                                   name="skype" placeholder="Skype">
+                            <input type="tel" class="contact-form__input contact-form__input--half-width-phone"
+                                   name="phone" placeholder="Телефон">
+                        </div>
+                        <div class="pencil-bocks">
+                            <textarea name="message" class="contact-form__textarea" id="message" cols="30" rows="10"
+                                      placeholder="Ваше сообщение" required></textarea>
+                        </div>
+                        <input type="submit" class="contact-submit" value="Отправить">
+                    </form>
+                    <div id="answer"></div>
+                </div>
 
 
+                <!--// Форма -->
 
+            </div>
+        </div>
+    </div>
 
+    <div class="copy">
+        <div class="container">
+            <div class="copyright">
+                <p class="copyright__label">© 2019 Роман Кашик</p>
+                <p class="copyright__text">Веб-разработик из Донецка, занимаюсь версткой и созданием сайтов. <br>
+                    Этот сайт сделал в рамках прохождения обучения по верстке на курсах от <a class="copyright__link"
+                                                                                              href="https://webcademy.ru/"
+                                                                                              target="blank">WebCademy.ru</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- //Контакты -->
 
-				<!--// Форма -->
+<!-- [if lt IE 9]>
+<script src="lib/html5shiv/es5-shim.min.js"></script>
+<script src="lib/html5shiv/html5shiv.min.js"></script>
+<script src="lib/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="lib/html5shiv/respond.min.js"></script>
+<![endif] -->
 
-			</div>
-		</div>
-	</div>
-
-	<div class="copy">
-		<div class="container">
-			<div class="copyright">
-				<p class="copyright__label">© 2019 Роман Кашик</p>
-				<p class="copyright__text">Веб-разработик из Донецка, занимаюсь версткой и созданием сайтов. <br>
-					Этот сайт сделал в рамках прохождения обучения по верстке на курсах от <a class="copyright__link" href="https://webcademy.ru/" target="blank">WebCademy.ru</a></p>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- //Контакты -->
-
-	<!-- [if lt IE 9]>
-	<script src="lib/html5shiv/es5-shim.min.js"></script>
-	<script src="lib/html5shiv/html5shiv.min.js"></script>
-	<script src="lib/html5shiv/html5shiv-printshiv.min.js"></script>
-	<script src="lib/html5shiv/respond.min.js"></script>
-	<![endif] -->
-
-	<!-- Scripts -->
-	<script src="lib/jquery/jquery-3.3.1.min.js"></script>
-	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-	<script src="lib/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
-	<script src="lib/mixitup2/jquery.mixitup.min.js"></script>
-	<script src="lib/fancybox-master/dist/jquery.fancybox.min.js"></script>
-	<script src="lib/jquery-validation-1.15.1/jquery.validate.min.js"></script>
-	<script src="js/main.js"></script>
+<!-- Scripts -->
+<script src="lib/jquery/jquery-3.3.1.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
+<script src="lib/mixitup2/jquery.mixitup.min.js"></script>
+<script src="lib/fancybox-master/dist/jquery.fancybox.min.js"></script>
+<script src="lib/jquery-validation-1.15.1/jquery.validate.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
